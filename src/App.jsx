@@ -11,9 +11,13 @@ function App() {
   const [isDaynamic, setIsDaynamic] = useState(false)
 
 
+
   return (
     <>
       <div className="container mx-auto">
+        <div className="m-4">
+          
+        </div>
         <h2 className="text-3xl">Redux Counter </h2>
         <div className="mt-8">
           <div className="grid grid-cols-2 gap-8">
